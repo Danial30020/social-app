@@ -12,6 +12,7 @@ function Profile(props) {
             </div> */}
 <ProfileInfo/>
             <Posts message={props.message} />
+            {/* <Posts ghj={props.postsData} /> */}
         </div>
 
     )
