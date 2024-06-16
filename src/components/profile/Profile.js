@@ -11,7 +11,8 @@ function Profile(props) {
                 <p>{props.name}</p>
             </div> */}
 <ProfileInfo/>
-            <Posts message={props.message} />
+            {/* <Posts messages={props.messages} /> */}
+            <Posts postsData={props.postsData} addPost={props.addPost} />
             {/* <Posts ghj={props.postsData} /> */}
         </div>
 
